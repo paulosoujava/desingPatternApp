@@ -36,7 +36,11 @@ enum class Page(val title:String, val content: String, val patterns: List<String
         "Interface Segregation  ",
         "Dependency Inversion "
     )),
+    COLABORATOR("Colaboradores","Colaboradores", listOf(
+        "Paulo Oliveira*https://www.linkedin.com/in/composejp/"
+    )),
     FONT(title = "Font", content = "Fonte de dados", listOf(
+        "RABISCANDO PADRÃO DE PROJETO*https://padroesdeprojeto.com.br/",
         "GURU*https://refactoring.guru/pt-br/design-patterns",
         "MEDIUM*https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530"
     ))

@@ -34,6 +34,7 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.List
+import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.runtime.Composable
@@ -46,6 +47,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
@@ -75,6 +77,7 @@ class MainActivity : ComponentActivity() {
                             Icons.Filled.Settings,
                             Icons.Filled.List,
                             Icons.Filled.Favorite,
+                            Icons.Filled.Person,
                         )
                     Row {
                         NavigationRail {
@@ -108,6 +111,15 @@ class MainActivity : ComponentActivity() {
                                         )
                                     }
                                     Page.SOLID -> {
+                                        NavigationRailItem(
+                                            label = { Text(item.title) },
+                                            icon = { Icon(icons[index], contentDescription = "") },
+                                            selected = selectedItem == index,
+                                            onClick = { selectedItem = index },
+                                            alwaysShowLabel = false
+                                        )
+                                    }
+                                    Page.COLABORATOR -> {
                                         NavigationRailItem(
                                             label = { Text(item.title) },
                                             icon = { Icon(icons[index], contentDescription = "") },
@@ -208,6 +220,8 @@ private fun ItemList(
                 Modifier.padding(start = 30.dp),
                 color = Color.Black,
                 fontWeight = FontWeight.Bold,
+                overflow = TextOverflow.Ellipsis,
+                maxLines = 1,
                 fontSize = 20.sp
             )
             Icon(
