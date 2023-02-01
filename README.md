@@ -36,11 +36,11 @@
 
 Sempre adicionar a Fonte das informações no app.
 
-Como colaborar:
-1 - Neste github crie um issue clicando em Issues e depois em new Issue
-2 - No title coloque: Colaborardor
-3 - No comentario coloque seu Login: ex: paulosoujava e qual feature deseja pegar
-4 - Clique em Submit new issue
+#Como colaborar:
+ 1 - Neste github crie um issue clicando em Issues e depois em new Issue
+ 2 - No title coloque: Colaborardor
+ 3 - No comentario coloque seu Login: ex: paulosoujava e qual feature deseja pegar
+ 4 - Clique em Submit new issue
 
 Obs: Sei que o correto seria fazer um fork do projeto e depois enviar PR, mas optei por seguir assim, pela
 simplicidade
@@ -61,5 +61,5 @@ git push --set-upstream origin feature/NOME_DA_SUA_FEATURE
 ```
 E pronto, seu código será analisado
 ## Explicando o projeto em vídeo
-    <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+     [YOUTUBE]: <https://youtu.be/WKPask19hj8>
 
