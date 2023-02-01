@@ -5,7 +5,7 @@
 
 ## Features
 
-- Factory Methodo [OK]
+- Factory Method [OK]
 - Abstract Factory
 - Adapter
 - Bridge
@@ -36,7 +36,7 @@
 
 Sempre adicionar a Fonte das informações no app.
 
-#Como colaborar:
+## Como colaborar:
  1 - Neste github crie um issue clicando em Issues e depois em new Issue
  2 - No title coloque: Colaborardor
  3 - No comentario coloque seu Login: ex: paulosoujava e qual feature deseja pegar
