@@ -61,5 +61,5 @@ git push --set-upstream origin feature/NOME_DA_SUA_FEATURE
 ```
 E pronto, seu código será analisado
 ## Explicando o projeto em vídeo
-[YOUTUBE]: https://youtu.be/WKPask19hj8
+[YOUTUBE](https://youtu.be/WKPask19hj8)
 
