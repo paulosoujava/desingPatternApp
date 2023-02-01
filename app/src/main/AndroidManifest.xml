@@ -12,7 +12,7 @@
         android:theme="@style/Theme.DesignPatters"
         tools:targetApi="31">
         <activity
-            android:name=".domain.RootActivity"
+            android:name=".presenter.RootActivity"
             android:exported="false" />
         <activity
             android:name=".presenter.MainActivity"

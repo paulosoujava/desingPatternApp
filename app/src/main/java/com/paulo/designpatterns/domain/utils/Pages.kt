@@ -36,7 +36,7 @@ enum class Page(val title:String, val content: String, val patterns: List<String
         "Interface Segregation  ",
         "Dependency Inversion "
     )),
-    COLABORATOR("Colaboradores","Colaboradores", listOf(
+    COLLABORATION("Colaborador","Colaboradores", listOf(
         "Paulo Oliveira*https://www.linkedin.com/in/composejp/"
     )),
     FONT(title = "Font", content = "Fonte de dados", listOf(

@@ -6,4 +6,5 @@ enum class Consts(val title: String) {
     BUILDER(title = "Builder "),
     PROTOTYPE(title = "Prototype"),
     SINGLETON(title = "Singleton"),
+    PATH_CREATIONAL("https://raw.githubusercontent.com/paulosoujava/desingPatternApp/main/app/src/main/java/com/paulo/designpatterns/domain/creational/")
 }

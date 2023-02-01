@@ -1,4 +1,4 @@
-package com.paulo.designpatterns.domain
+package com.paulo.designpatterns.presenter
 
 
 import android.os.Bundle
