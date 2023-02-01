@@ -37,10 +37,10 @@
 Sempre adicionar a Fonte das informações no app.
 
 ## Como colaborar:
- 1 - Neste github crie um issue clicando em Issues e depois em new Issue
- 2 - No title coloque: Colaborardor
- 3 - No comentario coloque seu Login: ex: paulosoujava e qual feature deseja pegar
- 4 - Clique em Submit new issue
+ - 1 - Neste github crie um issue clicando em Issues e depois em new Issue
+ - 2 - No title coloque: Colaborardor
+ - 3 - No comentario coloque seu Login: ex: paulosoujava e qual feature deseja pegar
+ - 4 - Clique em Submit new issue
 
 Obs: Sei que o correto seria fazer um fork do projeto e depois enviar PR, mas optei por seguir assim, pela
 simplicidade
